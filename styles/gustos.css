@@ -1,0 +1,38 @@
+   h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #4b3f35;
+    }
+
+    .collapse-container {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    details {
+      background-color: #f4e2d8;
+      border-radius: 12px;
+      padding: 15px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      cursor: pointer;
+    }
+
+    summary {
+      font-weight: bold;
+      font-size: 17px;
+      color: #2c2c2c;
+      outline: none;
+    }
+
+    details[open] {
+      background-color: #edd3c2;
+    }
+
+    details p {
+      margin-top: 10px;
+      font-size: 15px;
+      line-height: 1.5;
+    }

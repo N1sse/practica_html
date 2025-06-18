@@ -1,0 +1,120 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/*-----------Nav Bar-----------*/
+header {
+    background-color: #fdf7df;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* espacio horizontal interno */
+}
+
+.logo {
+    position: relative;
+    width: 80px;
+    height: 26px;
+    left: 50px;
+}
+
+nav ul {
+    list-style: none !important; /*para sobre escribir e indicar qu no cambie*/
+    display: flex;
+    gap: 30px; /* espacio entre los <li> */
+    padding-right: 125px;
+}
+
+nav li a {
+    color: #0b0c50;
+    font-size: 18px;
+    font-weight:  bold;
+    text-decoration: none !important;
+}
+
+/*----------Back to top-----------*/
+.generate-back-to-top {
+    font-size: 20px;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    z-index: 10;
+    transition: opacity 300ms ease-in-out;
+}
+.gp-icon svg {
+    height: 1em;
+    width: 1em;
+    top: .125em;
+    position: relative;
+    fill: currentColor;
+}
+a.generate-back-to-top {
+    background-color: #1e6b8b;
+    color: #ffffff;
+}
+
+/*main*/
+main{
+   max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;   
+}
+
+section{
+    margin-top: 0;
+    margin-bottom: 3rem;
+    background-color: white;
+}
+
+/*footer*/
+footer {
+  margin-top: 60px; 
+  background-color:  #fdf7df;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contenedor-footer {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #8686869a;
+  color: #216b8b;
+  margin: 0 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #b12c79;
+  color: #fff;
+}
