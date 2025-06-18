@@ -1,0 +1,13 @@
+/*-------banner------*/
+.banner {
+  width: 100%;
+  max-width: 1400px; /*para que se adapate un poco*/
+  margin: 0 auto;
+  height: auto;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

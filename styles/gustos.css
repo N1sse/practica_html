@@ -36,3 +36,10 @@
       font-size: 15px;
       line-height: 1.5;
     }
+
+    .mini{
+      display: block;
+      margin: 50px auto;
+      margin-bottom: 60px;
+      width: 250px;
+    }
